@@ -2,10 +2,10 @@
 <addons>
 
 
-<addon id="plugin.video.dijentertainments"
-       name="DIJ Entertainments"
-       version="1.0.4"
-       provider-name="MrSmith">
+<addon id="plugin.video.theentertainer"
+       name="The Entertainer"
+       version="1.0.0"
+       provider-name="GW-Designs">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -27,21 +27,21 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Dij entertainments Add-on</summary>
-    <description lang="en">we not doing iptv as well we will try and keep links going</description>
+    <summary lang="en"> Dream Streams Add-On</summary>
+    <description lang="en">Simple, Safe, Secure.....</description>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon id="repository.Mr-Smiths-Repo" name="Mr-Smiths-Repo" version="1.0.0" provider-name="Mr-Smith">
 	<extension point="xbmc.addon.repository" name=" Mr-Smiths-Repo">
-		<info compressed="false">https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/djjohnnyb15/Mr-Smiths-Repo/master/zips</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/GWDesigns/DreamStreams/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/GWDesigns/DreamStreams/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/GWDesigns/DreamStreams/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons from Mr-Smiths-Repo</summary>
-    <description lang="en">Download and install add-ons from Mr-Smiths-Repo.</description>
+		<summary lang="en">Install Add-ons from GW-Designs</summary>
+    <description lang="en">Download and install add-ons from Dream Streams.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
